@@ -1,10 +1,12 @@
 
-TABLES : ANEP.
+* ABAP program to display Company details using ALV Grid, creat new column S1 is amount between ANBTR (ANEP) and NDJAR (ANLB)
+
+
+  TABLES : ANEP.
 
 *    Create Stracture 
 
   TYPES :BEGIN OF R1,
-
     BUKRS TYPE ANEP-BUKRS,
     ANLN1 TYPE ANEP-ANLN1,
     ANLN2 TYPE ANEP-ANLN2,
@@ -14,8 +16,6 @@ TABLES : ANEP.
     ANBTR TYPE ANEP-ANBTR,
     NDJAR TYPE ANLB-NDJAR,
     S1 TYPE ANEP-ANBTR,
-
-
     END OF R1.
 
 
